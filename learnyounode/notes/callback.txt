@@ -1,0 +1,17 @@
+Instead, node is somewhere in the middle. It is:
+
+Designed to be simple and therefore relatively easy to understand and use
+Useful for I/O based programs that need to be fast and/or handle lots of connections
+At a lower level, node can be described as a tool for writing two major types of programs:
+
+Network programs using the protocols of the web: HTTP, TCP, UDP, DNS and SSL∑
+Programs that read and write data to the filesystem or local processes/memory
+What is an "I/O based program"? Here are some common I/O sources:
+
+Databases (e.g. MySQL, PostgreSQL, MongoDB, Redis, CouchDB)
+APIs (e.g. Twitter, Facebook, Apple Push Notifications)
+HTTP/WebSocket connections (from users of a web app)
+Files (image resizer, video editor, internet radio)
+
+-
+https://github.com/maxogden/art-of-node#callbacks
